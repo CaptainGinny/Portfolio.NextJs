@@ -1,7 +1,7 @@
 ## Portfolio-NextJS
 [Demo](https://portfolio-nextjs-weld-mu.vercel.app/)
 
-**Description**
+**Description:**
 
 The website is a personal portfolio showcasing Evgeny Malko. It highlights his skills in coding, problem-solving, and mastering complexity. The site features sections for his projects and contact information.
 
