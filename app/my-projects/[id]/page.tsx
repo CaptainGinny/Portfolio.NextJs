@@ -9,7 +9,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function Page({ params }) {
+export default function Page({ params } : { params: { id: string } }) {
   const project = projects.find((project) => project.id === parseInt(params.id));
 
   if (!project) {
@@ -78,6 +78,4 @@ export default function Page({ params }) {
       </div>
     </div>
   );
-}
-
-export { projects };
+};
