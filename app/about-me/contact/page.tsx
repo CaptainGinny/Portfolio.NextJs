@@ -1,24 +1,23 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Particle from '@/components/Particle';
-import foto from '@/public/assets/foto.png';
+import Photo from '@/components/Photo';
 
 export default function Contacts() {
   return (
     <div className="
       relative min-h-screen bg-[#0C011A] text-white flex flex-col 
-      md:flex-row items-center pt-[1vh]
+      md:flex-row items-center 
     ">
       <main className="
         flex flex-col justify-center items-center w-full md:w-3/4 
-        py-10 px-12 mt-[10vh] z-10
+        py-1 px-10 mt-[10vh] z-10
       ">
         <div className="
           w-full max-w-4xl mx-auto flex flex-col items-center
         ">
           <h1 className="
-            text-4xl md:text-4xl xl:text-5xl 2xl:text-7xl 
-            text-center mb-5 md:mb-10 text-white font-semibold
+            text-2xl md:text-4xl xl:text-5xl 2xl:text-7xl 
+            text-center mt-5 mb-3 md:mb-10 text-white font-semibold
           ">
             Contacts
           </h1>
@@ -28,17 +27,17 @@ export default function Contacts() {
           ">
             <li className="flex flex-col items-center">
               <h2 className="
-                text-2xl xl:text-4xl 2xl:text-5xl font-medium mb-3
+                text-xl xl:text-4xl 2xl:text-5xl font-medium mb-1
               ">
                 Location
               </h2>
-              <p className="text-lg xl:text-2xl 2xl:text-2xl">
+              <p className="text-md xl:text-2xl 2xl:text-2xl">
                 Minsk, Belarus
               </p>
             </li>
             <li className="flex flex-col items-center text-center">
               <h2 className="
-                text-2xl xl:text-4xl 2xl:text-5xl font-medium mb-3
+                text-xl xl:text-4xl 2xl:text-5xl font-medium mb-2
               ">
                 Telegram / WhatsApp
               </h2>
@@ -53,7 +52,7 @@ export default function Contacts() {
             </li>
             <li className="flex flex-col items-center text-center">
               <h2 className="
-                text-2xl xl:text-4xl 2xl:text-5xl font-medium mb-3
+                text-xl xl:text-4xl 2xl:text-5xl font-medium mb-2
               ">
                 Email
               </h2>
@@ -82,21 +81,8 @@ export default function Contacts() {
           </ul>
         </div>
       </main>
-      
-      <div className="
-        absolute items-center bottom-0 right-0 rounded-md 
-        sm:rounded-l-md z-10
-      ">
-        <Image
-          src={foto}
-          alt="MyFoto"
-          width={560}
-          height={560}
-          className="
-            w-[10rem] h-[12rem] md:w-[20rem] md:h-[25rem] 
-            lg:w-[30rem] lg:h-[35rem] 2xl:w-[40rem] 2xl:h-[50rem]
-          "
-        />
+      <div className='mb-1 xl:mb-0 pr-0 md:pr-40'>
+        < Photo />
       </div>
       <div className="
         absolute -left-28 md:-left-40 bottom-8 rotate-12 
@@ -107,11 +93,8 @@ export default function Contacts() {
           alt="bulb"
           width={260}
           height={260}
-          className="w-52 h-52 md:w-80 md:h-80"
+          className="hidden sm:block w-52 h-52 lg:w-80 lg:h-80"
         />
-      </div>
-      <div className="absolute inset-0 h-full w-full z-2">
-        <Particle />
       </div>
     </div>
   );
