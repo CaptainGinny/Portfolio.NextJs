@@ -22,7 +22,7 @@ const Photo = () => {
           className="w-[260px] h-[260px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/photo.png"
+            src="/assets/photo.webp"
             alt="Photo"
             priority
             quality={100}

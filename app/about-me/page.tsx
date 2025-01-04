@@ -23,8 +23,7 @@ export default function Page () {
           max-w-[80vw] text-sm md:text-base lg:text-lg xl:text-xl
           2xl:text-2xl text-gray-400 text-center mt-2
         ">
-          Emerging front-end star adept in JavaScript, TypeScript, React, 
-          and Next.js, poised to innovate and elevate digital experiences.
+          Fullstack Developer: JS, TypeScript, React, Next.js, PHP – Turning Ideas into Digital Reality
         </p>
       </div>
       <div className="
@@ -46,7 +45,7 @@ export default function Page () {
         hidden md:block
       ">
         <Image
-          src="/assets/bulb.png"
+          src="/assets/bulb.webp"
           alt="bulb"
           width={260}
           height={260}

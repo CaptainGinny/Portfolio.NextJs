@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <main className="
       flex items-center h-screen relative bg-cover 
-      bg-[url('/assets/bg-explosion.png')] pb-[37vh] sm:pb-[1vh]
+      bg-[url('/assets/bg-explosion.webp')] pb-[37vh] sm:pb-[1vh]
     ">
       <div className="absolute inset-0 h-full w-full md:w-[80%] z-2">
         <Particle />
       </div>
       <div className="absolute right-5 sm:right-10 md:right-40 bottom-0 z-10">
         <Image
-          src="/assets/MoustacheMan.png"
+          src="/assets/MoustacheMan.webp"
           alt="MoustacheMan"
           width={560}
           height={560}
@@ -25,7 +25,7 @@ export default function Home() {
         />
       </div>
       <Image
-        src="/assets/top-left-img.png"
+        src="/assets/top-left-img.webp"
         alt="paint"
         width={230}
         height={230}
@@ -46,16 +46,15 @@ export default function Home() {
           text-white font-semibold max-w-xs sm:max-w-md
           md:max-w-2xl lg:max-w-3xl
         ">
-          Code Lover, Complexity Slayer,{" "}
-          <span className="text-red-500">Problem Resolver</span>
+          Code the Future:{" "}<br/>
+          <span className="text-red-500">Fullstack Developer</span>
         </h1>
         <p className="
           text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200
           md:text-gray-400 mb-[5vh] md:pb-2 max-w-xs sm:max-w-md
           md:max-w-lg lg:max-w-xl
         ">
-          Navigating Complexity, Mastering Craft: 
-          Let`s Code the Future Together!
+          Merging JS & PHP into Perfect Harmony, Solving Business Challenges!
         </p>
         <div className="
           relative w-20 h-20 sm:w-24 sm:h-24

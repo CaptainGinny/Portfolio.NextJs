@@ -40,7 +40,7 @@ const Sidebar = () => {
         {isRouting && <Transition />}
         <div
           className="flex flex-col gap-3 sm:gap-5 pb-3 justify-center 
-                     items-center h-full"
+                    items-center h-full"
         >
           {NavLinks.map((link) => (
             <Link

@@ -14,7 +14,7 @@ export const Socials = [
   {
     name: "Cv",
     src: "/assets/icons/cv.svg",
-    link: "https://transparent-aspen-664.notion.site/IT-CV-Evgeny-Malko-426f01d8e06a40df822cf1acecf0e69e",
+    link: "https://transparent-aspen-664.notion.site/Evgeny-Malko-CV-171bb48de254806c8161d8965c69fd96",
   },
   {
     name: "GitHub",
@@ -34,7 +34,7 @@ export const Socials = [
   {
     name: "Linkedin",
     src: "/assets/icons/linkedin.svg",
-    link: "https://linkedin.com/in/evgeniymalko",
+    link: "https://linkedin.com/in/evgenymalko",
   },
 ];
 
@@ -78,36 +78,33 @@ export const ServiceData = [
   },
   {
     icon: RxDesktop,
-    title: "Design",
+    title: "Backend Development",
     content:
-      "Translating design concepts into functional front-end interfaces using " +
-      "JavaScript. Collaborating with designers to implement UI/UX.",
+      "Transforming business logic into robust server-side solutions with PHP. Building APIs, managing databases, and ensuring seamless communication between front-end and back-end systems.",
     backgroundImage: "/assets/myskills/design.jpg",
   },
   {
     icon: RxReader,
-    title: "Seo",
+    title: "Fullstack Development",
     content:
-      "Optimizing front-end code structure for enhanced search engine " +
-      "visibility. Implementing SEO best practices for front-end web " +
-      "development.",
+    "Building seamless end-to-end solutions with JavaScript and PHP. " +
+    "Creating dynamic and scalable applications by integrating front-end and back-end technologies.",
     backgroundImage: "/assets/myskills/seo.jpg",
   },
   {
     icon: RxPencil2,
-    title: "Branding",
+    title: "Deployment",
     content:
-      "Crafting memorable user experiences with JavaScript-driven branding " +
-      "elements.",
+      "Efficiently deploying fullstack applications to live servers. " +
+      "Collaborating with teams to ensure seamless production environments and high-quality standards.",
     backgroundImage: "/assets/myskills/branding.jpg",
   },
   {
     icon: RxRocket,
-    title: "Production",
+    title: "Database Management",
     content:
-      "Deploying front-end projects efficiently to live servers. " +
-      "Collaborating with teams to maintain high-quality standards in " +
-      "production environments.",
+      "Managing databases, optimizing queries, and ensuring smooth data flow between front-end and back-end systems. " +
+      "Building robust data architectures for scalable applications.",
     backgroundImage: "/assets/myskills/production.jpg",
   },
 ];

@@ -7,12 +7,12 @@ const Navbar = () => {
   return (
     <div 
       className="fixed top-0 left-0 right-0 bg-transparent z-[20] w-full 
-                 flex items-center justify-between gap-5 px-8 sm:px-10 
-                 md:px-20 lg:px-40 py-8 shadow-lg"
+                flex items-center justify-between gap-5 px-8 sm:px-10 
+                md:px-20 lg:px-40 py-8 shadow-lg"
     >
       <h1 
         className="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl 
-                   font-bold flex-shrink-0"
+                  font-bold flex-shrink-0"
       >
         Evgeny <span className="font-thin">Malko</span>
         <span className="text-orange-500">.</span>

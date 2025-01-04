@@ -32,26 +32,26 @@ const ServiceSlider = () => {
           <SwiperSlide key={item.title}>
             <div
               className="relative rounded-md cursor-pointer flex flex-col 
-                         gap-6 group text-white shadow-lg rounded-xl px-6 py-8 
-                         h-[360px] overflow-hidden"
+                        gap-6 group text-white shadow-lg rounded-xl px-6 py-8 
+                        h-[360px] overflow-hidden"
             >
               <div
                 className="absolute inset-0 bg-cover bg-center 
-                           transition-transform duration-300 
-                           group-hover:scale-105"
+                          transition-transform duration-300 
+                          group-hover:scale-105"
                 style={{ backgroundImage: `url(${item.backgroundImage})`}}
               />
               <div
                 className="absolute inset-0 bg-black opacity-0 
-                           group-hover:opacity-50 transition-opacity 
-                           duration-300 opacity-40"
+                          group-hover:opacity-50 transition-opacity 
+                          duration-300 opacity-40"
               />
               <div
                 className="relative flex flex-col gap-3 z-10 overflow-hidden"
               >
                 <item.icon
                   className="text-blue-600 group-hover:text-blue-400 
-                             w-6 h-6 mb-2"
+                            w-6 h-6 mb-2"
                 />
                 <h1
                   className="text-lg sm:text-xl font-bold break-words"
@@ -60,7 +60,7 @@ const ServiceSlider = () => {
                 </h1>
                 <p
                   className="text-sm sm:text-base md:text-sm break-words 
-                             text-white-600"
+                            text-white-600"
                 >
                   {item.content}
                 </p>
