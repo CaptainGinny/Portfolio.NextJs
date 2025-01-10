@@ -5,7 +5,7 @@ import Photo from '@/components/Photo';
 export default function Contacts() {
   return (
     <div className="relative min-h-screen bg-[#0C011A] text-white flex flex-col md:flex-row items-center">
-      <main className="flex flex-col justify-center items-center w-full md:w-3/4 py-1 px-10 mt-[10vh] z-10">
+      <main className="flex flex-col items-center w-full md:w-3/4 py-1 px-10 mt-[10vh] z-10">
         <div className="w-full max-w-4xl mx-auto flex flex-col items-center">
           <h1 className="text-2xl md:text-4xl xl:text-5xl 2xl:text-7xl text-center mt-5 mb-3 md:mb-10 text-white font-semibold">
             Contacts
@@ -47,7 +47,7 @@ export default function Contacts() {
           </ul>
         </div>
       </main>
-      <div className="mb-1 xl:mb-0 pr-0 md:pr-40">
+      <div className="pt-20 mb-1 xl:mb-0 pr-0 md:pr-40">
         <Photo />
       </div>
       <div className="absolute -left-28 md:-left-40 bottom-8 rotate-12 animate-pulse">
